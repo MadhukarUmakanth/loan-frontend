@@ -19,7 +19,7 @@ const LoanForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5001/loans', {
+      const response = await fetch('https://loan-backend-8.onrender.com/loans', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
